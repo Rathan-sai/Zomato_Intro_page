@@ -141,6 +141,10 @@ header{
     background-color: rgb(254, 253, 253);
 }
 
+.box:hover{
+    transform: scale(1.01, 1.01);
+}
+
 .box img{
     width: 100%;
     border-radius: 15px;
@@ -180,7 +184,7 @@ header{
 }
 
 .middle{
-    margin: 60px 110px;
+    margin: 60px 40px;
 }
 
 .sec-2 h2{
@@ -219,6 +223,9 @@ header{
     box-sizing: border-box;
 }
 
+.box-1:hover{
+    transform: scale(1.05, 1.05);
+}
 
 .box-1 div{
     font-family: Arial, Helvetica, sans-serif;
@@ -298,6 +305,10 @@ header{
     align-items: center;
     position: absolute;
     font-family: Okra, Helvetica, sans-serif;
+}
+
+.box-2:hover{
+    transform: scale(1.05, 1.05);
 }
 
 .icon{
@@ -422,7 +433,7 @@ header{
 }
 
 .end{
-    margin: 10px 110px;
+    margin: 110px 60px;
     background-color: rgb(255, 255, 255);
     
 }
@@ -434,7 +445,7 @@ header{
 }
 
 .box-3{
-    width: 1050px;
+    width: 900px;
     height: 60px;
     border: 1px solid rgb(235, 233, 233);
     box-shadow: 0 1px 3px rgb(236, 223, 233);
@@ -447,6 +458,10 @@ header{
     justify-content: space-between;
     padding: 0px 20px;
     margin-bottom: 25px;
+}
+
+.box-3:hover{
+    transform: scale(1.05, 1.05);
 }
 
 .box-3 span{
@@ -468,46 +483,41 @@ header{
 }
 
 .sec-7{
-    padding: 40px 120px;
+    margin: 20px;
+    padding: 40px 20px;
     background-color: rgb(251, 251, 255);
 }
 
 .first{
     display:flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .first-1{
     display: flex;
     /* position: relative; */
-    width: 100px;
     height: 40px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
-first-1 div{
-    position: absolute;
-}
-first-1 img{
-    width: 20px;
-    height: 20px;
-}
+
 .first-1 span{
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
-    margin-right: 20px;
+    margin-right: 10px;
     font-weight: 400;
 }
 
 .second{
     display: flex;
     justify-content: space-around;
-    margin: 60px 0;
-    /* flex-wrap: nowrap; */
+    flex-wrap: nowrap;
 }
 
 .second div{
     width: 200px;
+    height: fit-content;
 }
 
 .second h4{
@@ -518,7 +528,7 @@ first-1 img{
 
 .second a{
     display: inline-block;
-    width: 200px;
+    width: 100px;
     margin-bottom: 7px;
     white-space: nowrap;
     text-decoration: none;
@@ -541,4 +551,8 @@ first-1 img{
 .box-4 i{
     margin-left: 5px;
     margin-bottom: 5px;
+}
+
+.sec-7>P{
+    text-align: justify;
 }
